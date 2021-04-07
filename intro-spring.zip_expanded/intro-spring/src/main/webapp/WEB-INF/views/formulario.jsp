@@ -10,7 +10,7 @@
 <body>
 	<form:form method = "POST" modelAttribute="morador">
 	<p> Nome: <input type="text" name="nome"/> </p>
-	<p><input type ="text"  name = "local"/> </p>
+	<p> Local: <input type ="text"  name = "local"/> </p>
 	<p><form:button>Enviar</form:button> </p>
 	<p>${mensagem}</p>
 	</form:form>
