@@ -10,7 +10,7 @@
 <h1>RACES THIS YEAR</h1>
 <p> Races this year consist of nothing but cars crashing out...</p>
 
-<p></p>
+<p>${mensagem}</p>
 
 </body>
 </html>

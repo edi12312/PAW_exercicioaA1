@@ -37,7 +37,7 @@ public class WelcomeController {
 	public ModelAndView exibelocal(@ModelAttribute Morador morador) {
 		ModelAndView view = new ModelAndView("formulario");
 		
-		view.addObject("mensagem",morador.getNome() + "é morador de " + morador.getLocal());
+		view.addObject("mensagem",morador.getNome() + " é morador de " + morador.getLocal());
 		
 		return view;
 	} 
